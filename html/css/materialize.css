@@ -2139,6 +2139,10 @@
   color: transparent !important;
 }
 
+.custom {
+  color: #546e7a !important;
+}
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -4511,11 +4515,11 @@ small {
   margin: 0.2rem -0.4 0.6rem 0;
   background-color: #fff;
   transition: box-shadow .25s;
-  border-radius: 20px;
+  border-radius:0px;
 }
 /*edited code*/
 .card::after {
-  
+
   border-radius: 2px;
   position: absolute;
   z-index: -1;
@@ -4528,10 +4532,10 @@ small {
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.card:hover {
+/*.card:hover {
   -webkit-transform: scale(1.01, 1.01);
   transform: scale(1.01, 1.01);
-}
+}*/
 
 .card:hover::after {
     opacity: 1;
@@ -4541,6 +4545,7 @@ small {
 .card .card-title {
   font-size: 24px;
   font-weight: 300;
+
 }
 
 .card .card-title.activator {
